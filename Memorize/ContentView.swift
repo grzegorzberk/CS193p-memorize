@@ -9,8 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     let iconSet = EmojiSet()
-    @State var cardCount = 4
-    @State var emojis = ["🎅🏻","🎅🏻", "🎄", "🎄", "⛄️", "⛄️", "🎁", "🎁", "❄️", "❄️", "⛷️", "⛷️", "🌟", "🌟", "🧸", "🧸", "👼🏻", "👼🏻", "🤶🏻", "🤶🏻", "💝", "💝", "🛷", "🛷"]
+    @State var emojis: [String] = []
     
     
     var body: some View {
@@ -56,7 +55,7 @@ struct ContentView: View {
 
 
 struct CardView: View {
-    @State var isFaceUp = true
+    @State var isFaceUp = false
     let content: String
     
     var body: some View {
