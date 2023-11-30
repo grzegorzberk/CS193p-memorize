@@ -11,6 +11,7 @@
 		72532E672B18EC9A00ED9002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72532E662B18EC9A00ED9002 /* ContentView.swift */; };
 		72532E692B18EC9B00ED9002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72532E682B18EC9B00ED9002 /* Assets.xcassets */; };
 		72532E6C2B18EC9B00ED9002 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72532E6B2B18EC9B00ED9002 /* Preview Assets.xcassets */; };
+		72532E732B190FF400ED9002 /* EmojiSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72532E722B190FF400ED9002 /* EmojiSet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		72532E662B18EC9A00ED9002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		72532E682B18EC9B00ED9002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72532E6B2B18EC9B00ED9002 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		72532E722B190FF400ED9002 /* EmojiSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiSet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				72532E642B18EC9A00ED9002 /* MemorizeApp.swift */,
 				72532E662B18EC9A00ED9002 /* ContentView.swift */,
+				72532E722B190FF400ED9002 /* EmojiSet.swift */,
 				72532E682B18EC9B00ED9002 /* Assets.xcassets */,
 				72532E6A2B18EC9B00ED9002 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72532E732B190FF400ED9002 /* EmojiSet.swift in Sources */,
 				72532E672B18EC9A00ED9002 /* ContentView.swift in Sources */,
 				72532E652B18EC9A00ED9002 /* MemorizeApp.swift in Sources */,
 			);
