@@ -35,14 +35,15 @@ struct ContentView: View {
     func themeButton(is name: String, symbol: String, _ iconSet: [String]) -> some View{
         Button(action: {
             emojis = iconSet
+            emojis.shuffle()
         }, label: {
             VStack{
                 Image(systemName: symbol).font(.title)
                 Text(name).font(.callout)
             }
-        }).disabled(iconSet == emojis)
+        }).disabled(iconSet.sorted() == emojis.sorted())
     }
-    
+
     var cards: some View {
         LazyVGrid(columns: [GridItem(.adaptive(minimum: 65))]) {
             ForEach(emojis.indices, id: \.self) {index in
